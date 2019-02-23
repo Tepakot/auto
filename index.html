@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="css/style.css?version=1">
+</head>
+<body>
+    <section class="header">
+        <div class="header__linetop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <a href="#" class="m-menu-link">
+                            Меню <i class="ml-10 fa fa-bars"></i>
+                        </a>
+                        <div class="header__linetop_control">
+                            <ul>
+                                <li class="header__linetop_control_phone"><a href="tel:+380680680608">(068) 068 06 08</a></li>
+                                <li class="header__linetop_control_phone"><a href="tel:+380680680608">(068) 068 06 08</a></li>
+                                <li class="header__linetop_control_country"><a href="#">Украина</a></li>
+                                <li class="header__linetop_control_city"><a href="#">Киев</a></li>
+                            </ul>
+                            <ul>
+                                <li class="header__linetop_control_local"><a href="#">RU</a></li>
+                                <li class="header__linetop_control_cur"><a href="#">USD</a></li>
+                                <li class="header__linetop_control_enter"><a href="#">Войти</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__lineBottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-sm-3 col-5">
+                        <div class="header__lineBottom_logo">
+                                <img src="./img/logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-sm-9">
+                        <div class="header__lineBottom_menu text-right">
+                            <ul>
+                                <li><a href="">Главная</a> </li>
+                                <li><a href="">О нас</a></li>
+                                <li><a href="">FAQ</a></li>
+                                <li><a href="">Отзывы</a></li>
+                                <li><a href="">Блог</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="front">
+        <div class="front__slider">
+                <div class="front__slide1">
+                        <div class="container ">
+                            <div class="row align-items-center">
+                                <!-- <div class="col-4"> -->
+                                <div class="col-md-4 col-lg-4">
+                                </div>
+                                <div class="col-md-8 col-lg-8 col-sm-12">
+                                <!-- <div class="col-8"> -->
+                                    <div class="front__text">
+                                         <h2>Все прокатные компании Украины на одном сайте</h2>
+                                         <p>Разнообразный и богатый опыт укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании модели развития. Таким образом сложившаяся структура организации играет важную роль в формировании направлений.</p>
+                                         <div class="dots"></div>
+                                         <button class="show_auto">Подобрать авто</button>
+                                     </div>
+                                     
+                                </div>
+                               
+                            </div>
+                        </div>
+                 </div>
+                 <div class="front__slide2">
+                     <div class="container">
+                         <div class="row align-items-center">
+                             <div class="col-md-4">
+                             </div>
+                             <div class="col-md-8 col-sm-12">
+                                 <div class="front__text">
+                                     <h2>Все прокатные компании Украины на одном сайте</h2>
+                                     <p>Разнообразный и богатый опыт укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании модели развития. Таким образом сложившаяся структура организации играет важную роль в формировании направлений.</p>
+                                     <div class="dots"></div>
+                                     <button class="show_auto">Подобрать авто</button>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     
+                 </div>
+        </div>
+        <div class="container">
+                <div class="front__auto">
+                        <h3>Подобрать автомобиль</h3>
+                        <select class="country__dropbox">
+                            <option data-prefix="<img src='./img/ukraine.png' aria-hidden='true' class='front__auto_country'></img>">Украина</option>
+                            <option data-prefix="<img src='./img/ukraine.png' aria-hidden='true' class='front__auto_country'></img>">Беларусь</option>
+                            <option data-prefix="<img src='./img/russia.png' aria-hidden='true' class='front__auto_country'></img>">Россия</option>
+                            <option data-prefix="<img src='./img/ukraine.png' aria-hidden='true' class='front__auto_country'></img>">Армения</option>
+                        </select>                                    
+                        <p class="m-0 text-uppercase">Подача</p>
+                        <select class="city__dropbox">
+                            <option>Киев</option>
+                            <option>Ужгород</option>
+                            <option>Одесса</option>
+                        </select>
+                        <div class='date__box position-relative'>                                    
+                            <i class="dateicon"></i>
+                            <i class="caret fas fa-caret-down"></i>
+                            <input id='datetimepicker1' type='text' placeholder="Дата"/>
+                        </div>
+                        <div class='time__box position-relative'>                                    
+                            <i class="timeicon"></i>
+                            <i class="caret fas fa-caret-down"></i>
+                            <input type='text' id='datetimepicker2' placeholder="Время"/>
+                        </div>
+                        <span class="clearfix"></span>
+                        
+                        <input type="checkbox" class="checkbox" id="return_checkbox">
+                        <label for="return_checkbox">Возврат в другом городе</label>
+                        
+        
+                        <p class="text-uppercase mt-20 mb-10">Возврат</p>
+                        <div class='date__box position-relative'>                                    
+                            <i class="dateicon"></i>
+                            <i class="caret fas fa-caret-down"></i>
+                            <input id='datetimepicker3' type='text' placeholder="Дата"/>
+                        </div>
+                        <div class='time__box position-relative'>                                    
+                            <i class="timeicon"></i>
+                            <i class="caret fas fa-caret-down"></i>
+                            <input type='text' id='datetimepicker4' placeholder="Время"/>
+                        </div>
+                        <span class="clearfix"></span>
+                        <input type="checkbox" class="checkbox" id="show_checkbox">
+                        <label for="show_checkbox">Показать таблицу</label>
+                        <button class="front__auto_btn">Выбрать</button>
+                </div>
+        </div>
+       
+        
+    </section>
+    <section class="companies">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="companies__wrap">
+                        <h2 class="mb-45 text-center companies__wrap_title">Все прокатные компании Украины в одном сайте</h2>
+                        <p class="m-0 companies__wrap_descr">Равным образом постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обуславливает создание систем массового участия. С другой стороны дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки новых предложений.</p>
+                        <div class="mt-70 companies__wrap_logos d-flex justify-content-between">
+                            <img src="./img/company1.jpg" alt="">
+                            <img src="./img/company2.jpg" alt="">
+                            <img src="./img/company3.jpg" alt="">
+                            <img src="./img/company4.jpg" alt="">
+                            <img src="./img/company5.jpg" alt="">
+                            <img src="./img/company6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="rentLeaders">
+        <div class="container">
+            <h2 class="text-center rentLeaders_mainTitle pt-25 pb-20">Лидеры проката</h2>
+            <div class="rentLeaders__slider">
+                <div class="rentLeaders__wrap">
+                    <div class="rentLeaders__card">
+                        <h3 class="rentLeaders__card_title text-center">Днепр</h3>
+                        <button class="rentLeaders__card_btn">От 19 $ сутки</button>
+                    </div>                    
+                </div>
+                
+                <div class="rentLeaders__wrap">
+                    <div class="rentLeaders__card ">
+                        <h3 class="rentLeaders__card_title text-center">Днепр</h3>
+                        <button class="rentLeaders__card_btn">От 19 $ сутки</button>
+                    </div>
+                </div>
+                
+                <div class="rentLeaders__wrap">
+                    <div class="rentLeaders__card ">
+                        <h3 class="rentLeaders__card_title text-center">Днепр</h3>
+                        <button class="rentLeaders__card_btn">От 19 $ сутки</button>
+                    </div>
+                </div>
+                
+                <div class="rentLeaders__wrap ">
+                    <div class="rentLeaders__card">
+                        <h3 class="rentLeaders__card_title text-center">Днепр</h3>
+                        <button class="rentLeaders__card_btn">От 19 $ сутки</button>
+                    </div>
+                </div>
+                
+                <div class="rentLeaders__wrap ">
+                    <div class="rentLeaders__card">
+                        <h3 class="rentLeaders__card_title text-center">Днепр</h3>
+                        <button class="rentLeaders__card_btn">От 19 $ сутки</button>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section>
+    <section class="rentUkraine">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="rentUkraine_mainTitle">Аренда авто в Украине</h1>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="rentUkraine__wrap">
+                                <h3 class="rentUkraine__wrap_hotTitle">Горячие</h3>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="rentUkraine__wrap">
+                                <h3 class="rentUkraine__wrap_autoTitle">Авто</h3>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="rentUkraine__wrap">
+                                <h3 class="rentUkraine__wrap_ctTitle">Страна</h3>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                                <a href="#">Прокат авто Львов <span>25 $</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="howToUse">
+        <div class="howToUse_bgPart"></div>
+        <div class="container">
+            <h2 class="howToUse_mainTitle text-center pt-35">Как пользоваться</h2>
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="howToUse__stepWrap_first float-left">
+                        <p class="howToUse__stepWrap_first_dscr">Шаг 1 : <a href="#">Выберите место и время</a></p>
+                        <img class="howToUse__stepWrap_first_imac" src="./img/iMac1.png" alt="">
+                        <img class="howToUse__stepWrap_first_arrow" src="./img/arrowLeft.png" alt="">
+                    </div>     
+                    <div class="howToUse__stepWrap_second float-right">
+                        <p class="howToUse__stepWrap_second_dscr line"><a href="#">Шаг 2 : </a>Найдите лучшее авто по лучшей цене</p>
+                        <img class="howToUse__stepWrap_second_arrow" src="./img/arrowRight.png" alt="">
+                        <img class="howToUse__stepWrap_second_imac" src="./img/iMac2.png" alt="">                        
+                    </div>               
+                    <div class="howToUse__stepWrap_first mt-15 helper float-left">
+                        <p class="howToUse__stepWrap_first_dscr line">Шаг 3 : <a href="#">Ведите контактные данные</a></p>
+                        <img class="howToUse__stepWrap_first_imac" src="./img/iMac1.png" alt="">
+                        <img class="howToUse__stepWrap_first_arrow" src="./img/arrowLeft.png" alt="">
+                    </div>                                        
+                    <div class="howToUse__stepWrap_second mt-15 float-right">
+                        <p class="howToUse__stepWrap_second_dscr"><a href="#">Шаг 4 : </a>Выберите способ оплаты</p>
+                        <img class="howToUse__stepWrap_second_arrow" src="./img/arrowRight.png" alt="">
+                        <img class="howToUse__stepWrap_second_imac" src="./img/iMac2.png" alt="">                        
+                    </div>                  
+                </div>
+                <!-- <div class="col-lg-6 col-md-12">
+                                      
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section class="questions">
+        <div class="container">
+            <h2 class="questions_mainTitle text-center">Часто задаваемые вопросы</h2>
+            <div class="row justify-content-between">
+                <div class="col-lg-5 col-md-6">
+                    <div class="panel-group" role="tablist">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading">
+                                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse" aria-expanded="false" aria-controls="collapse">
+                                    <h4 class="panel-title">А что если ? <i class="fas fa-plus"></i></h4>
+                                </a>    
+                            </div>
+                        </div>
+                        <div id="collapse" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading">
+                            <div class="panel-body">
+                                <p>
+                                    <a class="collapsed" role="button" data-toggle="collapse" href="#collapse" aria-expanded="false" aria-controls="collapse">
+                                            <i class="fas fa-minus"></i>
+                                    </a>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-group" role="tablist">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading">
+                                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                    <h4 class="panel-title">А что если ? <i class="fas fa-plus"></i></h4>
+                                </a>    
+                            </div>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading">
+                            <div class="panel-body">
+                                <p>
+                                    <a class="collapsed" role="button" data-toggle="collapse" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                            <i class="fas fa-minus"></i>
+                                    </a>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="panel-group" role="tablist">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading">
+                                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                    <h4 class="panel-title">А что если ? <i class="fas fa-plus"></i></h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading">
+                            <div class="panel-body">
+                                <p>
+                                    <a class="collapsed" role="button" data-toggle="collapse" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                        <i class="fas fa-minus"></i>
+                                    </a>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-group" role="tablist">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading">
+                                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                    <h4 class="panel-title">А что если ? <i class="fas fa-plus"></i></h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading">
+                            <div class="panel-body">
+                                <p>
+                                    <a class="collapsed" role="button" data-toggle="collapse" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                        <i class="fas fa-minus"></i>
+                                    </a>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="show-all" href="#">Посмотреть все</a>
+                </div>               
+            </div>
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="container">
+            <div class="col-xl-10 col-lg-12 mx-auto">
+                <h2 class="feedback_mainTitle text-center pt-60 pb-50">
+                    Отзывы
+                </h2>
+                <div class="feedback__slider">
+                    <div class="feedback__slider_wrap">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4">
+                                <div class="feedback__slider_wrap_left">
+                                    <img src="./img/feedback_img.jpg" alt="">
+                                    <p>Lorem Ipsum</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-8">
+                                <div class="feedback__slider_wrap_right">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                    <div class="star_wrap">
+                                        <span>Киев</span>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback__slider_wrap">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4">
+                                <div class="feedback__slider_wrap_left">
+                                    <img src="./img/feedback_img.jpg" alt="">
+                                    <p>Lorem Ipsum</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-8">
+                                <div class="feedback__slider_wrap_right">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                    <div class="star_wrap">
+                                        <span>Киев</span>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback__slider_wrap">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4">
+                                <div class="feedback__slider_wrap_left">
+                                    <img src="./img/feedback_img.jpg" alt="">
+                                    <p>Lorem Ipsum</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-8">
+                                <div class="feedback__slider_wrap_right">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                    <div class="star_wrap">
+                                        <span>Киев</span>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback__slider_wrap">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4">
+                                <div class="feedback__slider_wrap_left">
+                                    <img src="./img/feedback_img.jpg" alt="">
+                                    <p>Lorem Ipsum</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-8">
+                                <div class="feedback__slider_wrap_right">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                    <div class="star_wrap">
+                                        <span>Киев</span>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <a href="#" class="feedback_seeAll"> Посмотреть </a>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ul class="footer__link_wrap">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="footer__link_wrap">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="footer__link_wrap">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>                        
+                <div class="col">
+                    <ul class="footer__link_wrap">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>         
+                <div class="col">
+                    <ul class="footer__link_wrap">
+                        <li><a href="#">Телефон</a></li>
+                        <li><a href="tel: +38068 068 06 08">(068) 068 06 08</a></li>
+                        <li><a href="tel: +38068 068 06 08">(068) 068 06 08</a></li>
+                        <li class="mt-5">
+                            <img class="mr-15" src="./img/visa.jpg" alt="">
+                            <img src="./img/mastercard.jpg" alt="">
+                        </li>
+                        <li class="footer__link_wrap_socials pt-0">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-tumblr"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="#"><i class="fab fa-vk"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mobile__menu">
+        
+        <ul class="mm__wrap">
+            <li class="mm_close">×</li>
+            <li class="mm_phone"><a href="tel:+380680680608">(068) 068 06 08</a></li>
+            <li class="mm_phone"><a href="tel:+380680680608">(068) 068 06 08</a></li>
+            <li class="mm_country"><a href="#">Украина</a></li>
+            <li class="mm_city"><a href="#">Киев</a></li>
+            <li class="mm_local"><a href="#">RU</a></li>
+            <li class="mm_cur"><a href="#">USD</a> </li>
+            <li class="mm_enter"><a href="#">Войти</a> </li>
+            <ul class="mm_onlyxs">
+                <li><a href="">Главная</a> </li>
+                <li><a href="">О нас</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Отзывы</a></li>
+                <li><a href="">Блог</a></li>
+            </ul>
+        </ul>
+    </div>
+    <script src="js/scripts.js?version=1"></script>
+</body>
+</html>
