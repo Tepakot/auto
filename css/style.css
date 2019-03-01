@@ -17441,6 +17441,9 @@ body {
 .footer {
   background: #203042;
   padding: 50px 0 70px; }
+  .footer__link_wrap_socials a:after{
+	  display: none; 
+  }
   .footer__link_wrap li {
     padding: 15px 5px; }
   .footer__link_wrap i {
